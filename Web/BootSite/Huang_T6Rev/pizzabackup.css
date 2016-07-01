@@ -1,0 +1,227 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Review Assignment
+
+   Pizza Order Style Sheet
+   Author: 
+   Date:   
+
+   Filename:         pizza.css
+   Supporting Files: delivery.png, okay.png, warning.png
+
+*/
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Review Assignment
+
+   Pizza Order Style Sheet
+   Author: 
+   Date:
+
+   Filename:         pizza.css
+   Supporting Files: delivery.png, okay.png, warning.png
+
+*/
+
+
+
+input [type="radio"] {
+width: 30px;
+float: left;
+}
+
+input[type="checkbox"] {
+width: 20px;
+}
+
+
+input:focus, select:focus, textarea:focus {
+background-color: rgb(220, 255, 220);
+}
+
+input:focus:valid {
+background-color: rgb(220, 255, 220) url("okay.png") bottom right no-repeat;
+}
+
+input:focus:invalid {
+background: rgb(255,232,233) url("warning.png") bottom right no-repeat;
+}
+
+fieldset {
+background-color: rgb(255, 246, 205);
+border: 1px solid rgb(233,69,0);
+float: left;
+margin: 1%;
+}
+
+#custInfo {
+width: 35%;
+}
+
+#buildPizza {
+width: 60%;
+}
+
+#meat {
+width: 47%;
+background-color: rgb(237, 178, 74);
+}
+
+#vegetables {
+width: 47%;
+background-color: rgb(237, 178, 74);
+}
+
+legend {
+font-size: 0.9em;
+}
+
+label {
+display: block;
+font-size: 0.8em;
+clear: left;
+float: left;
+width: 40%;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-left: 5px;
+}
+
+input {
+display: block;
+float: left;
+width: 50%;
+margin: 5px 0px 5px 0px;
+}
+
+textarea {
+display: block;
+float: left;
+width: 50%;
+margin: 5px 0px 5px 0px;
+height: 100px;
+}
+
+fieldset img {
+display: block;
+float: left;
+margin: 5px 0px 5px 0px;
+}
+
+fieldset.optionGroup {
+width: 50%;
+}
+
+
+
+#delTime {
+width: 150px;
+}
+
+#sizeimage {
+margin-left: 40%;
+}
+
+#size {
+width: 200px;
+background-color: transparent;
+}
+
+#crust {
+float: left;
+font-size: 0.8em;
+margin: 5px 0px 5px 0px;
+width: 150px;
+}
+
+#quantity {
+width: 40px;
+}
+
+#Pepperoni.optionGroup {
+width: 50%;
+border-style: none;
+background-color: transparent;
+
+
+}
+
+
+#Ham.optionGroup {
+width: 50%;
+border-style: none;
+background-color: transparent;
+}
+
+#Pork.optionGroup {
+width: 50%;
+border-style: none;
+background-color: transparent;
+}
+
+#Sausage.optionGroup {
+width: 50%;
+border-style: none;
+background-color: transparent;
+}
+
+#Chicken.optionGroup {
+width: 50%;
+border-style: none;
+background-color: transparent;
+}
+
+#Mushroom.optionGroup {
+width: 50%;
+border-style: none;
+background-color: transparent;
+}
+
+#greenpeppers.optionGroup {
+width: 50%;
+border-style: none;
+background-color: transparent;
+}
+
+#Onions.optionGroup {
+width: 50%;
+border-style: none;
+background-color: transparent;
+}
+
+#Tomatoes.optionGroup {
+width: 50%;
+border-style: none;
+background-color: transparent;
+}
+
+#Jalapenos.optionGroup {
+width: 50%;
+border-style: none;
+background-color: transparent;
+}
+
+input [type="radio"] {
+width: 30px;
+}
+
+input [type="checkbox"] {
+width: 20px;
+}
+
+form p {
+text-align: center;
+}
+
+input#a_button[type="submit"] {
+ This float: none; S/B clear:both;
+width: 150px;
+float: none;
+margin-top: 0px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
